@@ -29,6 +29,8 @@ INSERT INTO sales (book_id, sale_date, quantity) VALUES
 (2, '2024-01-20', 1),
 (3, '2024-02-05', 2);
 
+#Queries Starts here.
+    
 SELECT b.title, a.name AS author, b.price 
 FROM books b
 JOIN authors a ON b.author_id = a.author_id;
